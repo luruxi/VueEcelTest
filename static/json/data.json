@@ -1,0 +1,28 @@
+{
+  "data":[
+    {
+      "kpiId":"k_10010",
+      "kpiName":"经营",
+      "subData":[
+        {
+          "subKpi":"收入",
+          "yearPlan":"100",
+          "unit":"万元",
+          "yearFinish":"80",
+          "yearFinishRatio":"80%",
+          "yearFinishFlag":0,
+          "yearFinishStatus":2
+        },
+        {
+          "subKpi":"利润",
+          "yearPlan":"100",
+          "unit":"万元",
+          "yearFinish":"80",
+          "yearFinishRatio":"80%",
+          "yearFinishFlag":0,
+          "yearFinishStatus":2
+        }
+      ]
+    }
+  ]
+}

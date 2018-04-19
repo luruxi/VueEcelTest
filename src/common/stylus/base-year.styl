@@ -1,0 +1,132 @@
+.cardItem
+  background: #ffffff
+  margin-top: 0.2rem
+  padding: 0.24rem 0.3rem 0.3rem 0.1rem
+  .cardHead
+    height :0.42rem
+    line-height :0.42rem
+    font-size: 0.3rem
+    color: #585858
+    .cardTil span.tilLine
+      height :0.32rem
+      border-left 2px solid #70B6FE
+      display :inline-block
+      padding-right 0.15rem
+    .cardChat span
+      font-size: 0.32rem
+  .cardBody
+    padding-left :0.16rem
+    .cardSubTil
+      height :0.37rem
+      margin-top :0.18rem
+      font-size :0.26rem
+      text-align left
+    .cardSubCon
+      margin-top 0.26rem
+      .infoItem
+        flex :1
+        position :relative
+        text-align :center
+        .num
+          height :0.42rem
+          line-height :0.42rem
+          font-size :0.3rem
+          margin-top :0.23rem
+        .text
+          height :0.33rem
+          line-height :0.33rem
+          font-size :0.24rem
+          margin-top :0.07rem
+      .infoItem:first-child:before
+        border-left :none
+        display :none
+      .infoItem:before
+        display :inline-block
+        content : " "
+        width :0
+        height :0.5rem
+        position :absolute
+        left :0
+        top :50%
+        margin-top :-0.25rem
+        font-size :0
+        vertical-align :middle
+        border-left :1px solid #cccccc
+        .infoItem .icon-downtrend
+          color :#FEB619
+        .infoItem .icon-uptrend
+          color :#59CA92
+    .cardFlex
+      display :flex
+      div
+        justify-content: center;
+        align-items: center;
+      .info
+        flex :2
+        background :#F9F9F9
+      .chart
+        flex :1
+        background :#F9F9F9
+    .cardJy
+      div
+        height :1.32rem
+      .chart
+        margin-left :0.1rem
+        .el-progress
+          font-size :0
+        #myPie
+          width :100%
+          height :100%
+      .info
+        display :flex
+    .cardYw
+      .chart
+        position :relative
+        background :none
+        .target
+          position :absolute
+          height :0.33rem
+          width :50%
+          top :-0.4rem
+          right :0
+          text-align :right
+          font-size :0.24rem
+          line-height 0.33rem
+          background :none
+        .el-progress
+          font-size :0
+      .info
+        display :flex
+        margin-top :0.3rem
+        background: #F9F9F9
+        height :1.32rem
+    .cardAq
+      .el-table td, .el-table th
+        padding: 5px 0;
+        font-size: 0.24rem;
+        text-align :left
+    .cardFw
+      margin-top :0.24rem
+      display :flex
+      li
+        flex :1
+        .circle
+          width :1rem
+          height :1rem
+          font-size :0.28rem
+          line-height :1rem
+          text-align center
+          color #ffffff
+          border-radius :50%
+          background :#70B6FE
+          box-shadow :0 0rem 0.2rem #70B6FE
+          margin :0 auto
+          /*justify-content: center
+          align-items: center*/
+        p
+          height :0.37rem
+          margin-top :0.13rem
+          line-height :0.37rem
+          font-size :0.26rem
+          text-align center
+
